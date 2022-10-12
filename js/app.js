@@ -32,10 +32,11 @@ if (a>0){
 			console.log("this consditon is failed")
 		}
 */
+/*
 //switch condition
 var a = parseInt(prompt("enter a")),
     b = parseInt(prompt("enter b")),
-    c = parseInt(prompt("enter c"));
+    c = prompt("enter c");
 
     switch(c){
         case "+":
@@ -58,3 +59,19 @@ var a = parseInt(prompt("enter a")),
         console.log("unknown");
         break;
     }
+*/
+let age = prompt("enter value");
+
+if (age>=18){
+    let test = prompt("enter value");
+    if(test=="pass"){
+    console.log("your elgible for licence");
+    }else{
+        console.log("your not ready to eligible");
+    }
+}else{
+    console.log("your not eligible for licence");
+}
+
+
+
